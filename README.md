@@ -14,15 +14,50 @@ SO THAT I can reliably retrieve them for later use
 
 ## Preview
 
+###### Deployed application's functionality
+
+![exampleOfDeployedApp](./assets/HomeSignupDashboard.gif)
+
+###### Application's manifest.json file
+
+![exampleOfDeployedAppManifestFile](./assets/DeployedAppManifestFile.gif)
+
+###### Application's registered service worker
+
+![exampleOfDeployedAppRegisteredServiceWorker](./assets/RegisteredServiceWorker.gif)
+
+###### Application's IndexedDB storage
+
+![exampleOfDeployedAppIndexedDBstorage](./assets/DeployedAppIndexedDBstorage.gif)
+
 ## Installation
 
 ###### Local Installation
+
+- Clone the repository from [Github](git@github.com:simmmmo/sjb-PWA-Text-Editor.git)
+- Ensure Node.js is installed
+- Install dependencies
+  [express package](https://www.npmjs.com/package/express)
+
+```bash
+npm install
+```
+
+- Ensure all additional packages have been installed
+
+- Run the below from the root directory to start client and server
+
+```bash
+npm run start
+```
+
+- Open http://localhost:3000 to view it in the browser
 
 ## Usage
 
 ###### Production Environment (Heroku)
 
--
+- https://sjb-pwa-text-editor.herokuapp.com/
 
 ###### Additional information
 
@@ -31,6 +66,12 @@ Notes
 -
 
 ## Technology
+
+- Node.js
+- Express.js
+- IndexedDB
+- Webpacks
+- Heroku
 
 ## Project Links
 
@@ -45,4 +86,4 @@ Notes
 
 ###### Heroku Environment
 
--
+- https://sjb-pwa-text-editor.herokuapp.com/
