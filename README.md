@@ -2,7 +2,8 @@
 
 ## Description
 
-This single-page application is a text editor that runs in the browser and meets the PWA criteria. It features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline and has been deployed to Heroku.
+This single-page application is a text editor that runs in the browser and meets the PWA criteria. It features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. It functions offline and users has the ability to download it as an application.
+The application has been deployed to Heroku.
 
 ## User Story
 
@@ -16,19 +17,19 @@ SO THAT I can reliably retrieve them for later use
 
 ###### Deployed application's functionality
 
-![exampleOfDeployedApp](./assets/HomeSignupDashboard.gif)
+![exampleOfDeployedApp](./assets/DeployedApp.jpg)
 
 ###### Application's manifest.json file
 
-![exampleOfDeployedAppManifestFile](./assets/DeployedAppManifestFile.gif)
+![exampleOfDeployedAppManifestFile](./assets/DeployedAppManifestFile.jpg)
 
 ###### Application's registered service worker
 
-![exampleOfDeployedAppRegisteredServiceWorker](./assets/RegisteredServiceWorker.gif)
+![exampleOfDeployedAppRegisteredServiceWorker](./assets/RegisteredServiceWorker.jpg)
 
 ###### Application's IndexedDB storage
 
-![exampleOfDeployedAppIndexedDBstorage](./assets/DeployedAppIndexedDBstorage.gif)
+![exampleOfDeployedAppIndexedDBstorage](./assets/DeployedAppIndexedDBstorage.jpg)
 
 ## Installation
 
@@ -57,13 +58,7 @@ npm run start
 
 ###### Production Environment (Heroku)
 
-- https://sjb-pwa-text-editor.herokuapp.com/
-
-###### Additional information
-
-Notes
-
--
+- https://sjb-pwa-texteditor.herokuapp.com/
 
 ## Technology
 
@@ -86,4 +81,4 @@ Notes
 
 ###### Heroku Environment
 
-- https://sjb-pwa-text-editor.herokuapp.com/
+- https://sjb-pwa-texteditor.herokuapp.com/
